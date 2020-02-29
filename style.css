@@ -92,7 +92,20 @@ body {
 
 /*GRID*/
 
+.main {
+    grid-area: m;
+}
+
+.menu-primary {
+    grid-area: p;
+}
+
+.menu-secondary {
+    grid-area: s;
+}
+
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "p m m s";
 }
