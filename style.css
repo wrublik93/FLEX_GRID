@@ -33,7 +33,7 @@ body {
 }
 
 .menu-secondary {
-    background: #cccccc;
+    background: #dddddd;
 }
 
 /*FLEX*/
@@ -45,13 +45,15 @@ body {
 .main {
     /*width: 50%*/
     flex-grow: 1;
-
+    order: 2;
 }
 
 .menu-primary {
     width: 25%;
+    order: 1;
 }
 
 .menu-secondary {
     width: 25%;
+    order: 3;
 }
