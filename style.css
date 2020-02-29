@@ -120,3 +120,14 @@ body {
         "s s s s";
     }
 } 
+
+@media only screen and (max-width: 480px){
+    .container {
+        display: grid;
+        grid-template-areas: 
+        "p p p p"
+        "m m m m"
+        "m m m m"
+        "s s s s";
+    }
+} 
