@@ -35,3 +35,23 @@ body {
 .menu-secondary {
     background: #cccccc;
 }
+
+/*FLEX*/
+
+.container {
+    display: flex;
+}
+
+.main {
+    /*width: 50%*/
+    flex-grow: 1;
+
+}
+
+.menu-primary {
+    width: 25%;
+}
+
+.menu-secondary {
+    width: 25%;
+}
