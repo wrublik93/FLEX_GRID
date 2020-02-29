@@ -109,3 +109,14 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "p m m s";
 }
+
+@media only screen and (max-width: 800px){
+    .container {
+        display: grid;
+        grid-template-areas: 
+        "p m m m"
+        "p m m m"
+        "p m m m"
+        "s s s s";
+    }
+} 
